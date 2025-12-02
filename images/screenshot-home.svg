@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 600" width="300" height="600">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#1A1A2E"/>
+      <stop offset="100%" style="stop-color:#0F0F1A"/>
+    </linearGradient>
+    <linearGradient id="headerGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#8B5CF6"/>
+      <stop offset="100%" style="stop-color:#06B6D4"/>
+    </linearGradient>
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#8B5CF6"/>
+      <stop offset="50%" style="stop-color:#A78BFA"/>
+      <stop offset="100%" style="stop-color:#06B6D4"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="300" height="600" fill="url(#bgGrad)"/>
+  
+  <!-- Status bar -->
+  <rect x="0" y="0" width="300" height="30" fill="#0F0F1A"/>
+  <text x="20" y="20" fill="white" font-family="Arial" font-size="12">21:39</text>
+  <text x="260" y="20" fill="white" font-family="Arial" font-size="12">100%</text>
+  
+  <!-- Title -->
+  <text x="20" y="70" fill="white" font-family="Arial" font-size="28" font-weight="bold">Tech Compare</text>
+  <text x="20" y="95" fill="#A0A0B0" font-family="Arial" font-size="14">Find your perfect device</text>
+  
+  <!-- Theme toggle -->
+  <circle cx="265" cy="70" r="20" fill="#252542" stroke="#8B5CF6" stroke-width="1"/>
+  <text x="258" y="75" font-size="16">☀️</text>
+  
+  <!-- Search bar -->
+  <rect x="20" y="120" width="260" height="50" rx="25" fill="#252542"/>
+  <text x="55" y="150" fill="#666" font-family="Arial" font-size="14">🔍 Search phones...</text>
+  
+  <!-- Category pills -->
+  <rect x="20" y="190" width="80" height="35" rx="17" fill="url(#headerGrad)"/>
+  <text x="35" y="213" fill="white" font-family="Arial" font-size="12" font-weight="bold">📱 Phones</text>
+  
+  <rect x="110" y="190" width="70" height="35" rx="17" fill="#252542"/>
+  <text x="122" y="213" fill="#A0A0B0" font-family="Arial" font-size="12">💻 Macs</text>
+  
+  <rect x="190" y="190" width="65" height="35" rx="17" fill="#252542"/>
+  <text x="202" y="213" fill="#A0A0B0" font-family="Arial" font-size="12">📱 iPads</text>
+  
+  <rect x="20" y="235" width="75" height="35" rx="17" fill="#252542"/>
+  <text x="32" y="258" fill="#A0A0B0" font-family="Arial" font-size="12">⌚ Watches</text>
+  
+  <rect x="105" y="235" width="80" height="35" rx="17" fill="#252542"/>
+  <text x="117" y="258" fill="#A0A0B0" font-family="Arial" font-size="12">💻 Laptops</text>
+  
+  <rect x="195" y="235" width="75" height="35" rx="17" fill="#252542"/>
+  <text x="207" y="258" fill="#A0A0B0" font-family="Arial" font-size="12">📱 Tablets</text>
+  
+  <!-- Filters -->
+  <rect x="20" y="290" width="260" height="45" rx="22" fill="#252542"/>
+  <text x="50" y="318" fill="#A0A0B0" font-family="Arial" font-size="14">⚙️ Filters &amp; Sort</text>
+  
+  <!-- Device cards -->
+  <rect x="20" y="355" width="125" height="180" rx="20" fill="url(#cardGrad)"/>
+  <rect x="45" y="380" width="75" height="90" rx="10" fill="#1A1A2E"/>
+  <rect x="60" y="395" width="45" height="60" rx="5" fill="#252542"/>
+  <text x="40" y="495" fill="white" font-family="Arial" font-size="14" font-weight="bold">Galaxy A55</text>
+  <rect x="40" y="505" width="60" height="18" rx="9" fill="#1A1A2E"/>
+  <text x="50" y="518" fill="#A0A0B0" font-family="Arial" font-size="10">128GB</text>
+  
+  <rect x="155" y="355" width="125" height="180" rx="20" fill="url(#cardGrad)"/>
+  <rect x="180" y="380" width="75" height="90" rx="10" fill="#1A1A2E"/>
+  <rect x="195" y="395" width="45" height="60" rx="5" fill="#252542"/>
+  <text x="172" y="495" fill="white" font-family="Arial" font-size="14" font-weight="bold">Galaxy M55</text>
+  <rect x="175" y="505" width="60" height="18" rx="9" fill="#1A1A2E"/>
+  <text x="185" y="518" fill="#A0A0B0" font-family="Arial" font-size="10">128GB</text>
+  
+  <!-- Bottom navigation -->
+  <rect x="0" y="550" width="300" height="50" fill="#1A1A2E"/>
+  <text x="35" y="580" fill="#8B5CF6" font-family="Arial" font-size="10">🏠 Home</text>
+  <text x="95" y="580" fill="#666" font-family="Arial" font-size="10">📊 Board</text>
+  <text x="165" y="580" fill="#666" font-family="Arial" font-size="10">🤖 AI</text>
+  <text x="210" y="580" fill="#666" font-family="Arial" font-size="10">⚖️ Compare</text>
+  <text x="265" y="580" fill="#666" font-family="Arial" font-size="10">👤</text>
+</svg>

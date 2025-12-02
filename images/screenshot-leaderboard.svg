@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 600" width="300" height="600">
+  <defs>
+    <linearGradient id="bgGrad4" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#1A1A2E"/>
+      <stop offset="100%" style="stop-color:#0F0F1A"/>
+    </linearGradient>
+    <linearGradient id="headerGrad4" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#8B5CF6"/>
+      <stop offset="50%" style="stop-color:#A78BFA"/>
+      <stop offset="100%" style="stop-color:#06B6D4"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="300" height="600" fill="url(#bgGrad4)"/>
+  
+  <!-- Status bar -->
+  <rect x="0" y="0" width="300" height="30" fill="#0F0F1A"/>
+  <text x="20" y="20" fill="white" font-family="Arial" font-size="12">21:40</text>
+  <text x="260" y="20" fill="white" font-family="Arial" font-size="12">100%</text>
+  
+  <!-- Header -->
+  <text x="20" y="60" fill="white" font-family="Arial" font-size="16">←</text>
+  <text x="100" y="60" fill="white" font-family="Arial" font-size="18" font-weight="bold">Leaderboard</text>
+  
+  <!-- User profile card -->
+  <rect x="20" y="85" width="260" height="180" rx="25" fill="url(#headerGrad4)"/>
+  
+  <!-- Medal -->
+  <circle cx="80" cy="155" r="40" fill="white" fill-opacity="0.2"/>
+  <circle cx="80" cy="155" r="32" fill="#FFD700"/>
+  <text x="68" y="165" fill="white" font-family="Arial" font-size="24">🥇</text>
+  
+  <!-- Username and rank -->
+  <text x="135" y="135" fill="white" font-family="Arial" font-size="18" font-weight="bold">Dominik7231</text>
+  <text x="135" y="155" fill="rgba(255,255,255,0.7)" font-family="Arial" font-size="12">Rank #1</text>
+  <text x="220" y="145" fill="white" font-family="Arial" font-size="32" font-weight="bold">122</text>
+  <text x="220" y="165" fill="rgba(255,255,255,0.7)" font-family="Arial" font-size="12">points</text>
+  
+  <!-- Stats row -->
+  <text x="55" y="220" fill="white" font-family="Arial" font-size="20" font-weight="bold">6</text>
+  <text x="45" y="240" fill="rgba(255,255,255,0.7)" font-family="Arial" font-size="10">Votes</text>
+  
+  <text x="115" y="220" fill="white" font-family="Arial" font-size="20" font-weight="bold">29</text>
+  <text x="95" y="240" fill="rgba(255,255,255,0.7)" font-family="Arial" font-size="10">Comparisons</text>
+  
+  <text x="180" y="220" fill="white" font-family="Arial" font-size="20" font-weight="bold">8</text>
+  <text x="177" y="240" fill="rgba(255,255,255,0.7)" font-family="Arial" font-size="10">AI</text>
+  
+  <text x="230" y="220" fill="white" font-family="Arial" font-size="20" font-weight="bold">0</text>
+  <text x="220" y="240" fill="rgba(255,255,255,0.7)" font-family="Arial" font-size="10">Streak</text>
+  
+  <!-- How to earn points -->
+  <rect x="20" y="285" width="260" height="45" rx="22" fill="#252542"/>
+  <text x="50" y="313" fill="#FFD700" font-family="Arial" font-size="14">🏆</text>
+  <text x="75" y="313" fill="white" font-family="Arial" font-size="14">How to earn points</text>
+  <text x="250" y="313" fill="#666" font-family="Arial" font-size="14">▼</text>
+  
+  <!-- Leaderboard entries -->
+  <!-- First place (current user) -->
+  <rect x="20" y="345" width="260" height="70" rx="15" fill="#252542" stroke="#8B5CF6" stroke-width="2"/>
+  <circle cx="60" cy="380" r="22" fill="#FFD700"/>
+  <text x="50" y="388" fill="white" font-family="Arial" font-size="16">🥇</text>
+  <text x="95" y="370" fill="white" font-family="Arial" font-size="14" font-weight="bold">Dominik7231</text>
+  <text x="95" y="392" fill="#666" font-family="Arial" font-size="11">👤 6  ⚖️ 29</text>
+  <text x="220" y="375" fill="white" font-family="Arial" font-size="20" font-weight="bold">122</text>
+  <text x="235" y="395" fill="#666" font-family="Arial" font-size="10">pts</text>
+  
+  <!-- Second place -->
+  <rect x="20" y="425" width="260" height="70" rx="15" fill="#252542"/>
+  <circle cx="60" cy="460" r="22" fill="#C0C0C0"/>
+  <text x="50" y="468" fill="white" font-family="Arial" font-size="16">🥈</text>
+  <text x="95" y="450" fill="white" font-family="Arial" font-size="14" font-weight="bold">Dominik723</text>
+  <text x="95" y="472" fill="#666" font-family="Arial" font-size="11">👤 1  ⚖️ 2</text>
+  <text x="230" y="455" fill="white" font-family="Arial" font-size="20" font-weight="bold">19</text>
+  <text x="235" y="475" fill="#666" font-family="Arial" font-size="10">pts</text>
+</svg>
