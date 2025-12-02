@@ -10,22 +10,48 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
-    <link rel="icon" type="image/svg+xml" href="images/favicon.svg">
+    <link rel="icon" type="image/png" href="images/1bf9c89d-3ef0-4d4c-a220-8db11f7f8ff0.png">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Techcompare - Your Ultimate Tech Comparison Tool">
+    <meta property="og:description" content="Find the perfect device with detailed side-by-side comparisons and AI-powered recommendations.">
+    <meta property="og:image" content="https://yourdomain.com/images/screenshot-home.jpg">
+    <meta property="og:url" content="https://techcompare.hu">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Techcompare - Your Ultimate Tech Comparison Tool">
+    <meta name="twitter:description" content="Find the perfect device with detailed side-by-side comparisons and AI-powered recommendations.">
+    <meta name="twitter:image" content="https://yourdomain.com/images/screenshot-home.jpg">
 </head>
 <body>
+    <!-- Scroll Progress Bar -->
+    <div id="scrollProgress" class="scroll-progress"></div>
+
+    <!-- Ambient Background Shapes -->
+    <div class="ambient-shape shape-1"></div>
+    <div class="ambient-shape shape-2"></div>
+
     <!-- Navigation -->
-    <nav class="navbar">
+    <nav class="navbar" role="navigation" aria-label="Main navigation">
         <div class="container">
-            <div class="logo">
-                <span class="logo-icon">📱</span>
+            <div class="logo wave-on-hover">
+                <img src="images/1bf9c89d-3ef0-4d4c-a220-8db11f7f8ff0.png" alt="Techcompare Logo" class="logo-img">
                 <span class="logo-text">Techcompare</span>
             </div>
             <ul class="nav-links">
-                <li><a href="#features">Features</a></li>
-                <li><a href="#screenshots">Screenshots</a></li>
-                <li><a href="#categories">Categories</a></li>
-                <li><a href="#faq">FAQ</a></li>
+                <li><a href="#features" class="bounce-on-hover">Features</a></li>
+                <li><a href="#screenshots" class="bounce-on-hover">Screenshots</a></li>
+                <li><a href="#categories" class="bounce-on-hover">Categories</a></li>
+                <li><a href="#faq" class="bounce-on-hover">FAQ</a></li>
                 <li><a href="#download" class="btn-nav">Download</a></li>
+                <li>
+                    <button id="themeToggle" class="theme-toggle" aria-label="Toggle Dark/Light Mode">
+                        <svg class="theme-icon" viewBox="0 0 24 24">
+                            <path d="M12 3a9 9 0 1 0 9 9c0-.46-.04-.92-.1-1.36a5.389 5.389 0 0 1-4.4 2.26 5.403 5.403 0 0 1-3.14-9.8c-.44-.06-.9-.1-1.36-.1z"/>
+                        </svg>
+                    </button>
+                </li>
             </ul>
             <div class="menu-toggle">
                 <span></span>
@@ -40,11 +66,11 @@
         <div class="hero-bg"></div>
         <div class="container">
             <div class="hero-content">
-                <div class="hero-text">
-                    <h1>Your Ultimate <span class="gradient-text">Tech Comparison</span> Tool</h1>
+                <div class="hero-text slide-in-left">
+                    <h1 class="glitch-wrapper">Your Ultimate <span class="gradient-text glitch" data-text="Tech Comparison">Tech Comparison</span> Tool</h1>
                     <p class="hero-subtitle">Find the perfect device with detailed side-by-side comparisons and AI-powered recommendations!</p>
                     <div class="hero-buttons">
-                        <a href="https://play.google.com/store/apps/details?id=hu.techcompare.phonecompare" class="btn btn-primary" target="_blank">
+                        <a href="https://play.google.com/store/apps/details?id=hu.techcompare.phonecompare" class="btn btn-primary magnetic-button gradient-animate" target="_blank">
                             <img src="images/google-play.svg" alt="Google Play">
                             Download on Google Play
                         </a>
@@ -64,7 +90,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="hero-image">
+                <div class="hero-image slide-in-right">
                     <div class="phone-mockup">
                         <img src="images/screenshot-home.jpg" alt="Techcompare App Home Screen">
                     </div>
@@ -81,32 +107,32 @@
                 <p>Everything you need to make smart tech decisions</p>
             </div>
             <div class="features-grid">
-                <div class="feature-card">
+                <div class="feature-card interactive-card tilt-card">
                     <div class="feature-icon">🔍</div>
                     <h3>Multi-Category Comparison</h3>
                     <p>Compare devices across 9 categories including phones, laptops, tablets, watches, and more.</p>
                 </div>
-                <div class="feature-card">
+                <div class="feature-card interactive-card tilt-card">
                     <div class="feature-icon">🤖</div>
                     <h3>AI Assistant</h3>
                     <p>Get personalized device recommendations with AI-powered buying advice based on your needs.</p>
                 </div>
-                <div class="feature-card">
+                <div class="feature-card interactive-card tilt-card">
                     <div class="feature-icon">📊</div>
                     <h3>Detailed Specifications</h3>
                     <p>View comprehensive specs including processor, display, camera, battery, and connectivity details.</p>
                 </div>
-                <div class="feature-card">
+                <div class="feature-card interactive-card tilt-card">
                     <div class="feature-icon">💰</div>
                     <h3>Smart Decisions</h3>
                     <p>Compare prices, share comparisons with friends, and save favorites for later.</p>
                 </div>
-                <div class="feature-card">
+                <div class="feature-card interactive-card tilt-card">
                     <div class="feature-icon">🏆</div>
                     <h3>Leaderboard</h3>
                     <p>Earn points by voting, comparing devices, and using AI. Compete with other users!</p>
                 </div>
-                <div class="feature-card">
+                <div class="feature-card interactive-card tilt-card">
                     <div class="feature-icon">🎯</div>
                     <h3>Easy Navigation</h3>
                     <p>Clean, modern interface with dark/light theme, fast performance, and quick comparisons.</p>
@@ -123,21 +149,21 @@
                 <p>See Techcompare in action</p>
             </div>
             <div class="screenshots-slider">
-                <div class="screenshot-item">
-                    <img src="images/screenshot-home.jpg" alt="Home Screen">
+                <div class="screenshot-item zoom-in pulse-on-hover">
+                    <img src="images/screenshot-home.jpg" alt="Home Screen" loading="lazy">
                     <p>Home Screen</p>
                 </div>
-                <div class="screenshot-item">
-                    <img src="images/screenshot-comparison.jpg" alt="Comparison View">
-                    <p>Comparison View</p>
-                </div>
-                <div class="screenshot-item">
-                    <img src="images/screenshot-ai.jpg" alt="AI Assistant">
+                <div class="screenshot-item zoom-in pulse-on-hover">
+                    <img src="images/screenshot-leaderboard.jpg" alt="AI Assistant" loading="lazy">
                     <p>AI Assistant</p>
                 </div>
-                <div class="screenshot-item">
-                    <img src="images/screenshot-leaderboard.jpg" alt="Leaderboard">
+                <div class="screenshot-item zoom-in pulse-on-hover">
+                    <img src="images/screenshot-ai.jpg" alt="Leaderboard" loading="lazy">
                     <p>Leaderboard</p>
+                </div>
+                <div class="screenshot-item zoom-in pulse-on-hover">
+                    <img src="images/screenshot-comparison.jpg" alt="Comparison View" loading="lazy">
+                    <p>Comparison View</p>
                 </div>
             </div>
         </div>
@@ -151,47 +177,47 @@
                 <p>Compare across 9 different categories</p>
             </div>
             <div class="categories-grid">
-                <div class="category-card">
+                <div class="category-card interactive-card tilt-card">
                     <span class="category-icon">📱</span>
                     <h3>Phones</h3>
                     <p>iPhones & Samsung Galaxy</p>
                 </div>
-                <div class="category-card">
+                <div class="category-card interactive-card tilt-card">
                     <span class="category-icon">💻</span>
                     <h3>Macs</h3>
                     <p>MacBook Air, Pro, iMac & more</p>
                 </div>
-                <div class="category-card">
+                <div class="category-card interactive-card tilt-card">
                     <span class="category-icon">📱</span>
                     <h3>iPads</h3>
                     <p>iPad Pro, Air, Mini & standard</p>
                 </div>
-                <div class="category-card">
+                <div class="category-card interactive-card tilt-card">
                     <span class="category-icon">💻</span>
                     <h3>Laptops</h3>
                     <p>Dell, HP, Lenovo, ASUS & Surface</p>
                 </div>
-                <div class="category-card">
+                <div class="category-card interactive-card tilt-card">
                     <span class="category-icon">📱</span>
                     <h3>Tablets</h3>
                     <p>Samsung, Lenovo & Surface</p>
                 </div>
-                <div class="category-card">
+                <div class="category-card interactive-card tilt-card">
                     <span class="category-icon">⌚</span>
                     <h3>Watches</h3>
                     <p>Apple Watch & Galaxy Watch</p>
                 </div>
-                <div class="category-card">
+                <div class="category-card interactive-card tilt-card">
                     <span class="category-icon">🎧</span>
                     <h3>AirPods</h3>
                     <p>AirPods Pro, Max & standard</p>
                 </div>
-                <div class="category-card">
+                <div class="category-card interactive-card tilt-card">
                     <span class="category-icon">🎧</span>
                     <h3>Headphones</h3>
                     <p>Sony, Bose, Sennheiser & more</p>
                 </div>
-                <div class="category-card">
+                <div class="category-card interactive-card tilt-card">
                     <span class="category-icon">🤖</span>
                     <h3>Robot Vacuums</h3>
                     <p>Roomba, Roborock & Ecovacs</p>
@@ -208,7 +234,7 @@
                 <p>Loved by tech enthusiasts worldwide</p>
             </div>
             <div class="testimonials-grid">
-                <div class="testimonial-card">
+                <div class="testimonial-card interactive-card zoom-in">
                     <div class="testimonial-stars">⭐⭐⭐⭐⭐</div>
                     <p class="testimonial-text">"Finally an app that makes comparing phones easy! The AI recommendations are spot on."</p>
                     <div class="testimonial-author">
@@ -219,7 +245,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="testimonial-card">
+                <div class="testimonial-card interactive-card zoom-in">
                     <div class="testimonial-stars">⭐⭐⭐⭐⭐</div>
                     <p class="testimonial-text">"Saved me hours of research when buying my new laptop. The side-by-side comparison is brilliant!"</p>
                     <div class="testimonial-author">
@@ -230,7 +256,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="testimonial-card">
+                <div class="testimonial-card interactive-card zoom-in">
                     <div class="testimonial-stars">⭐⭐⭐⭐⭐</div>
                     <p class="testimonial-text">"Best tech comparison app I've used. Clean interface and comprehensive data for all devices."</p>
                     <div class="testimonial-author">
@@ -253,22 +279,22 @@
                 <p>Start comparing devices in seconds</p>
             </div>
             <div class="steps-grid">
-                <div class="step-card">
+                <div class="step-card zoom-in bounce-on-hover">
                     <div class="step-number">1</div>
                     <h3>Choose Category</h3>
                     <p>Select from 9 categories: Phones, Macs, iPads, Laptops, and more</p>
                 </div>
-                <div class="step-card">
+                <div class="step-card zoom-in bounce-on-hover">
                     <div class="step-number">2</div>
                     <h3>Browse Devices</h3>
                     <p>Explore the available devices with detailed specifications</p>
                 </div>
-                <div class="step-card">
+                <div class="step-card zoom-in bounce-on-hover">
                     <div class="step-number">3</div>
                     <h3>Compare</h3>
                     <p>Select 2-4 devices for detailed side-by-side comparison</p>
                 </div>
-                <div class="step-card">
+                <div class="step-card zoom-in bounce-on-hover">
                     <div class="step-number">4</div>
                     <h3>Ask AI</h3>
                     <p>Get personalized recommendations from our AI assistant</p>
@@ -331,7 +357,7 @@
             <div class="download-content">
                 <h2>Download <span class="gradient-text">Techcompare</span> Today</h2>
                 <p>Choose your perfect device with confidence!</p>
-                <a href="https://play.google.com/store/apps/details?id=hu.techcompare.phonecompare" class="btn btn-primary btn-large" target="_blank">
+                <a href="https://play.google.com/store/apps/details?id=hu.techcompare.phonecompare" class="btn btn-primary btn-large magnetic-button gradient-animate pulse-on-hover" target="_blank">
                     <img src="images/google-play.svg" alt="Google Play">
                     Get it on Google Play
                 </a>
@@ -349,15 +375,31 @@
         <div class="container">
             <div class="footer-content">
                 <div class="footer-logo">
-                    <span class="logo-icon">📱</span>
+                    <img src="images/1bf9c89d-3ef0-4d4c-a220-8db11f7f8ff0.png" alt="Techcompare Logo" class="logo-img">
                     <span class="logo-text">Techcompare</span>
                 </div>
                 <p class="footer-tagline">Your Ultimate Tech Comparison Tool</p>
                 <div class="footer-links">
-                    <a href="https://play.google.com/store/apps/details?id=hu.techcompare.phonecompare" target="_blank">Google Play</a>
-                    <a href="#features">Features</a>
-                    <a href="#categories">Categories</a>
+                    <a href="https://play.google.com/store/apps/details?id=hu.techcompare.phonecompare" target="_blank" class="footer-link-item">Google Play</a>
+                    <a href="#features" class="footer-link-item">Features</a>
+                    <a href="#categories" class="footer-link-item">Categories</a>
                 </div>
+                
+                <div class="social-links">
+                    <a href="https://x.com/Techcompare7231" target="_blank" class="social-btn" aria-label="Follow Techcompare on X">
+                        <svg viewBox="0 0 24 24" class="social-icon" fill="currentColor">
+                            <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+                        </svg>
+                        <span>Techcompare</span>
+                    </a>
+                    <a href="https://x.com/Dominik7231" target="_blank" class="social-btn" aria-label="Follow Dominik on X">
+                        <svg viewBox="0 0 24 24" class="social-icon" fill="currentColor">
+                            <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+                        </svg>
+                        <span>Dominik</span>
+                    </a>
+                </div>
+                
                 <p class="copyright">&copy; 2025 Techcompare. All rights reserved.</p>
             </div>
         </div>
@@ -370,6 +412,19 @@
 
     <!-- Particles Container -->
     <div id="particles" class="particles-container"></div>
+
+    <!-- Cookie Consent Banner -->
+    <div id="cookieBanner" class="cookie-banner">
+        <div class="cookie-header">
+            <span class="cookie-icon">🍪</span>
+            <span class="cookie-title">Cookies!</span>
+        </div>
+        <p class="cookie-text">We use cookies to improve your experience and analyze traffic. By clicking "Accept", you agree to our use of cookies.</p>
+        <div class="cookie-buttons">
+            <button id="acceptCookies" class="btn-small btn-accept magnetic-button">Accept</button>
+            <button id="declineCookies" class="btn-small btn-decline magnetic-button">Decline</button>
+        </div>
+    </div>
 
     <script src="script.js"></script>
 </body>
